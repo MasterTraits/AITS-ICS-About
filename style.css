@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+.font-dela-gothic {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.font-transparent {
+    color: transparent; 
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: transparent;
+} 
+
+.font-shadow-1 {
+    text-shadow: 3px 2px 3px black;
+}
+
+.font-shadow-2 {
+    text-shadow: 8px 7px 8px black;
+}
